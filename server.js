@@ -6,7 +6,7 @@ import logger from './middleware/logger.js';
 import errorHandler  from './middleware/error.js';
 import notFound from './middleware/notFound.js';
 import { log } from 'console';
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 4000;
 const app = express();
 
 //Get the directory name
